@@ -9,7 +9,7 @@ function setCardType(type) {
   const colors = {
     visa: ["#436D99", "#2D57F2"],
     mastercard: ["3DF6F29", "#C69347"],
-    defaut: ["black", "gray"],
+    default: ["black", "gray"],
   }
 
   ccBgColor01.setAttribute("fill", colors[type][0])
@@ -85,7 +85,7 @@ cardHolder.addEventListener("input", () => {
   const ccHolder = document.querySelector(".cc-holder .value")
 
   ccHolder.innerText =
-    cardHolder.value.length === 0 ? "RAFAEL ALMEIDA" : cardHolder.value
+    cardHolder.value.length === 0 ? "GALA SECA" : cardHolder.value
 })
 
 securityCodeMasked.on("accept", () => {
