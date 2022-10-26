@@ -85,7 +85,7 @@ cardHolder.addEventListener("input", () => {
   const ccHolder = document.querySelector(".cc-holder .value")
 
   ccHolder.innerText =
-    cardHolder.value.length === 0 ? "RAFAEL ALMEIDA" : cardHolder.value
+    cardHolder.value.length === 0 ? "FULANO" : cardHolder.value
 })
 
 securityCodeMasked.on("accept", () => {
