@@ -86,7 +86,7 @@ cardHolder.addEventListener("input", () => {
 
   ccHolder.innerText =
     cardHolder.value.length === 0 ? "GALA SECA" : cardHolder.value
-    cardHolder.value.length === 0 ? "FULANO" : cardHolder.value
+    cardHolder.value.length === 0 ? "RAFAEL NUNES" : cardHolder.value
 })
 
 securityCodeMasked.on("accept", () => {
